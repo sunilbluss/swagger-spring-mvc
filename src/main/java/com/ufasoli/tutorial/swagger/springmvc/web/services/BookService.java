@@ -27,7 +27,7 @@ import java.util.List;
 @RequestMapping(value = "/books", produces = MediaType.APPLICATION_JSON_VALUE)
 public class BookService {
 
-    @Autowired
+    //@Autowired
     private DAO<Book, String> bookDAO;
 
     /**
